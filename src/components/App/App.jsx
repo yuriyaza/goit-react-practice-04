@@ -1,16 +1,4 @@
-import { Component } from 'react';
-import { nanoid } from 'nanoid';
-
-import {
-  Container,
-  Grid,
-  GridItem,
-  Header,
-  SearchForm,
-  Section,
-  Text,
-  Todo,
-} from 'components';
+import { Container, Header, SearchForm, Section, } from 'components';
 import { ToDoList } from 'components/ToDoList/ToDoList';
 
 export const App = () => {
